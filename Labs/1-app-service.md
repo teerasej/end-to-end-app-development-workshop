@@ -1,9 +1,10 @@
 # Lab 01: Build a web application on Azure platform as a service offering
 
-## Services included in this exercise
+## Microsoft Azure user interface
 
-1. Azure App Service
-2. Azure Blob Storage
+Given the dynamic nature of Microsoft cloud tools, you might experience Azure UI changes that occur after the development of this training content. As a result, the lab instructions and lab steps might not align correctly.
+
+Microsoft updates this training course when the community alerts us to needed changes. However, cloud updates occur frequently, so you might encounter UI changes before this training content updates. **If this occurs, adapt to the changes, and then work through them in the labs as needed.**
 
 ## Instructions
 
