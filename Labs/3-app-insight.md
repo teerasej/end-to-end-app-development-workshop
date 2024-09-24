@@ -1,6 +1,6 @@
 
 
-# Lab 3: Monitor services that are deployed to Azure
+# Lab 3: Monitoring services with Azure Application Insight
 
 ## Microsoft Azure user interface
 
@@ -64,7 +64,7 @@ In this lab, you will create an Application Insights resource in Azure that will
     
     The following screenshot displays the configured settings on the **Application Insights** blade.
 
-    ![Create an Azure Application Insights instance blade](./media/l11_create_app_insights_portal.png)
+    ![Create an Azure Application Insights instance blade](./media/l03_create_app_insights_portal.png)
      
 1. On the **Review + create** tab, review the options that you selected during the previous steps.
 
