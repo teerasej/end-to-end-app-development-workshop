@@ -93,14 +93,14 @@ Now that you've deployed a model, you can use it to generate responses based on 
 1. Review the default **System message**, which should be *You are an AI assistant that helps people find information.* The system message is included in prompts submitted to the model, and provides context for the model's responses; setting expectations about how an AI agent based on the model should interact with the user.
 1. In the **Chat session** panel, enter the user query 
    ```
-   How can I use generative AI to help me market a new product?`
+   How can I use generative AI to help me market a new product?
    ```
     > **Note**: You may receive a response that the API deployment is not yet ready. If so, wait for a few minutes and try again.
 
 2. Review the response, noting that the model has generated a cohesive natural language answer that is relevant to the query with which it was prompted.
 3. Enter the user query 
     ```
-    What skills do I need if I want to develop a solution to accomplish this?`.
+    What skills do I need if I want to develop a solution to accomplish this?
     ```
 4. Review the response, noting that the chat session has retained the conversational context (so "this" is interpreted as a generative AI solution for marketing). This contextualization is achieved by including the recent conversation history in each successive prompt submission, so the prompt sent to the model for the second query included the original query and response as well as the new user input.
 5. In the **Chat session** panel toolbar, select **Clear chat** and confirm that you want to restart the chat session.
@@ -198,7 +198,7 @@ Now that your app has been configured, run it to send your request to your model
 
 2. When prompted, enter the text 
     ```
-    What hike should I do near Rainier?`.
+    What hike should I do near Rainier?
     ```
 3. Observe the output, taking note that the response follows the guidelines provided in the system message you added to the *messages* array.
 4. Provide the prompt

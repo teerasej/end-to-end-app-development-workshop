@@ -6,7 +6,6 @@ using Microsoft.Extensions.Configuration.Json;
 using Azure;
 
 // Add Azure OpenAI package
-using Azure.AI.OpenAI;
 
 
 // Build a config object and retrieve user settings.
