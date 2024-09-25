@@ -18,14 +18,6 @@ Sign in to your Azure portal using the credentials provided.
 
 > **Note**: Your lab host will provide instructions to connect to the virtual lab environment.
 
-#### Review the installed applications
-
-Find the taskbar on your Windows 11 desktop. The taskbar contains the icons for the applications that you'll use in this lab, including:
-    
--   Microsoft Edge
--   File Explorer
--   Visual Studio Code
--   Azure PowerShell
 
 ## Lab Scenario
 
