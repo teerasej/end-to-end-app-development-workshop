@@ -270,10 +270,18 @@ In most real-world applications, the ability to reference previous parts of the 
 6. Save the file. In the code you added, notice we now append the previous input and response to the prompt array which allows the model to understand the history of our conversation.
 7. In the terminal pane, enter the following command to run the application.
 
-    - **C#**: `dotnet run`
+    ```bash
+    dotnet run
+    ```
 
-8. Run the app again and provide the prompt `Where is a good hike near Boise?`.
-9.  Observe the output, and then prompt `How difficult is the second hike you suggested?`.
+8. Run the app again and provide the prompt: 
+    ```
+    Where is a good hike near Boise?
+    ```
+9.  Observe the output, and then prompt: 
+    ```
+    How difficult is the second hike you suggested?
+    ```
 10. You'll likely get a response about the second hike the model suggested, which provides a much more realistic conversation. You can ask additional follow up questions referencing previous answers, and each time the history provides context for the model to answer.
 
     > **Tip**: The token count is only set to 1200, so if the conversation continues too long the application will run out of available tokens, resulting in an incomplete prompt. In production uses, limiting the length of the history to the most recent inputs and responses will help control the number of required tokens.
