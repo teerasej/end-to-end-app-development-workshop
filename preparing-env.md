@@ -20,8 +20,11 @@ Each student machine should have the following applications installed:
     git config --global user.name "Your Name"
     git config --global user.email "Your email"
     ```
+## 2. Proxy and firewall configuration
 
-## Account Setup Requirement (Prepared by Lab host)
+- Please ensure that the machine doesnot set any proxy or firewall that block the URL that will be used in the workshop.
+
+## 3. Account Setup Requirement (Prepared by Lab host)
 
 1. Azure DevOps Account
   - have full permission to create project, repository, pipeline, etc.
