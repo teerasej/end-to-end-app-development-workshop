@@ -259,7 +259,7 @@ In this exercise, you created the Azure resources that you'll use for the remain
 
     The following screenshot displays the **Application Insights** metrics of the local web app.
 
-    ![Application Insights metrics of the local web app in the Azure portal](./media/l11_web_app_metrics_portal.png)
+    ![Application Insights metrics of the local web app in the Azure portal](./media/l03_web_app_metrics_portal.png)
 
     > **Note**: It can take up to five minutes to observe requests in the Application Insights metrics charts.
 
