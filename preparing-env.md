@@ -21,21 +21,36 @@ Each student machine should have the following applications installed:
     git config --global user.email "Your email"
     ```
 
-## Account Requirement
+## Account Setup Requirement (Prepared by Lab host)
 
 1. Azure DevOps Account
-  - already have an organization
   - have full permission to create project, repository, pipeline, etc.
-2. Azure Portal account
-  - have full permission to create resources, services, etc.
+  - already have an organization with following setting:
+    1. **Organization Settting > Billing**: Setup billing with an Azure Subscription
+
+    ![Azure DevOps Billing](./media/devop1-set-billing.png)
+
+    2. **Organization Settting > Pipeline > Settings**: Toggle the switch to Off for Disable creation of classic build pipelines and Disable creation of classic release pipelines
+
+    ![Azure DevOps Pipeline Setting](./media/devop2-set-pipeline.png)
+
+    3. **Organization Settting > Security > Policies**: Toggle the switch to On for Allow public projects
+
+    ![Azure DevOps Policy Setting](./media/devop3-set-policy.png)
+
+ 
+2. Azure Portal account with subscription
+  - Have full permission to create resources, services, etc. 
+  - Ensure that Azure subscription is ready to register all Azure resources below.
 
 
-## Ensure your Azure subscription ready register follow Azure services:
+## Ensure your Azure subscription ready register follow Azure resources (Prepared by Lab host): 
 
-1. Azure App service
-2. Azure Functions App
-3. Azure Application Insight
-4. Azure Kubernetes Service
-5. Azure API Management
-6. Azure Cache for Redis
-7. Azure OpenAI Service
+1. Resource group
+2. Azure App service
+3. Azure Functions App
+4. Azure Application Insight
+5. Azure Kubernetes Service
+6. Azure API Management
+7. Azure Cache for Redis
+8. Azure OpenAI Service
