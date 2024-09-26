@@ -1,4 +1,4 @@
-# Lab 01: Build a web application on Azure platform as a service offering
+# Lab 01: Build a web application on Azure platform 
 
 ## Microsoft Azure user interface
 
