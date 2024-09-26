@@ -22,7 +22,7 @@ Each student machine should have the following applications installed:
     ```
 ## 2. Proxy and firewall configuration
 
-- Please ensure that the machine doesnot set any proxy or firewall that block the URL that will be used in the workshop.
+- Please ensure that the machine does not set any proxy or firewall that block the URL or file system's permission that will be used in the workshop.
 
 ## 3. Account Setup Requirement (Prepared by Lab host)
 
