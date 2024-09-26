@@ -1,6 +1,6 @@
 
 
-# Lab 3: Monitoring services with Azure Application Insight
+# Lab 3: Create Containerize Application with Azure Kubernetes Service
 
 ## Microsoft Azure user interface
 
