@@ -47,13 +47,14 @@ Each student machine should have the following applications installed:
   - Ensure that Azure subscription is ready to register all Azure resources below.
 
 
-## Ensure your Azure subscription ready register follow Azure resources (Prepared by Lab host): 
+## Ensure your Azure subscription ready register and able to use follow Azure resources (Prepared by Lab host): 
 
 1. Resource group
-2. Azure App service
-3. Azure Functions App
-4. Azure Application Insight
-5. Azure Kubernetes Service
-6. Azure API Management
-7. Azure Cache for Redis
-8. Azure OpenAI Service
+2. Azure Cloud Shell
+3. Azure App service
+4. Azure Functions App
+5. Azure Application Insight
+6. Azure Kubernetes Service
+7. Azure API Management
+8. Azure Cache for Redis
+9. Azure OpenAI Service
