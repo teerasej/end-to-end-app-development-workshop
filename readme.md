@@ -2,6 +2,7 @@
 
 # Exploring Azure Service
 
-## Created by 
+- [Exercise Instruction](./Exercises/README.md)
+- [Lab files](./Allfiles/Labs/)
 
 
