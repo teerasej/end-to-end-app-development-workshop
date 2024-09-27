@@ -23,9 +23,6 @@ Sign in to your Azure portal using the credentials provided.
 
 In this lab, you will create an Application Insights resource in Azure that will be used to monitor and log application insight data for later review. The API will be set to automatically scale if demand increases to a certain threshold and logging the data will help determine how the service is being utilized.
 
-## Architecture diagram
-
-![Architecture diagram depicting the monitoring of services that are deployed to Azure](./media/Lab11-Diagram.png)
 
 ### Exercise 1: Create and configure Azure resources
 
@@ -174,7 +171,7 @@ In this exercise, you created the Azure resources that you'll use for the remain
        "AllowedHosts": "*"
     }
 
-    > **Note**" Ensure you have replaced the placeholder with your own instrumentation key that you recorded earlier.
+> **Note**" Ensure you have replaced the placeholder with your own instrumentation key that you recorded earlier.
 
 3. Save the changes to the **appsettings.json** file and close it.
 
@@ -267,7 +264,7 @@ In this exercise, you created the Azure resources that you'll use for the remain
 
 In this exercise, you created an API app by using ASP.NET and configured it to stream application metrics to Application Insights. You then used the Application Insights dashboard to review performance details about your API.
 
-### Exercise 3: Monitor a web API using Application Insights
+### (Optional) Exercise 3: Monitor a web API using Application Insights
 
 #### Task 1: Deploy an application to the web API
 
@@ -315,7 +312,7 @@ In this exercise, you created an API app by using ASP.NET and configured it to s
     
     The following screenshot displays the **Application Insights** settings of the Azure Web API.
     
-    ![Application Insights settings of the Azure Web API](./media/l11_web_api_insights.png)
+    ![Application Insights settings of the Azure Web API](./media/l03_web_api_insights.png)
 
 1. Switch to the browser tab you opened in the previous task to display the results of deployment of your API app to the target Azure API app (including the **/weatherforecast** relative path in the target URL) and refresh the browser page several times.
 
@@ -335,7 +332,7 @@ In this exercise, you created an API app by using ASP.NET and configured it to s
  
     The following screenshot displays the **Application Insights** metrics of the Azure web app in the Azure portal.
      
-    ![Application Insights metrics of the Azure web app in the Azure portal](./media/l11_azure_web_app_metrics_portal.png)
+    ![Application Insights metrics of the Azure web app in the Azure portal](./media/l03_azure_web_app_metrics_portal.png)
 
     > **Note**: It can take up to five minutes for updated metrics to appear in the Application Insights metrics charts.
 
