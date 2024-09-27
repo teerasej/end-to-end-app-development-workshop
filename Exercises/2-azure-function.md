@@ -43,7 +43,7 @@ In this lab, you will demonstrate the ability to create a simple Azure function 
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value |
-    | **Resource group** section | Select **Create new**, enter **Serverless**, and then select **OK** |
+    | **Resource group** section | Select **Create new**, enter **Serverless**_[yourname]_, and then select **OK** |
     | **Storage account name** text box | Enter **funcstor**_[yourname]_ |
     | **Region** drop-down list | Select **(US) East US** |
     | **Performance** section | Select the **Standard** option |
@@ -90,7 +90,7 @@ In this lab, you will demonstrate the ability to create a simple Azure function 
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value |
-    | **Resource group** section | Select **create new** and name it: **Serverless** |
+    | **Resource group** section | Select **create new** and name it: **Serverless**_[yourname]_ |
     | **Function App name** text box | Enter **funclogic**_[yourname]_ |
     | **Runtime stack** drop-down list | Select **NodeJS** |
     | **Version** drop-down list | Select **20 (LTS)** |
@@ -155,6 +155,12 @@ In this exercise, you created all the resources that you'll use in this lab.
 6. Explore the **Function Keys** tab to see the function key.
 7. Explore the **Metrics** tab to see the function metrics. (It might take a few minutes to show the metrics)
 
-#### Review
+### Remove the resources group
+
+1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **Serverless**_[yourname]_.
+2. On the **Serverless**_[yourname]_ blade, select **Delete resource group**.
+3. In the **Delete resource group** blade, enter the name of the resource group to confirm that you want to delete the resource group, and then select **Delete**.
+
+## Review
 
 In this exercise, you deployed a local function project to Azure Functions and validated that the functions work in Azure.

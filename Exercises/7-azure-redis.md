@@ -44,7 +44,7 @@ In this lab, you will create an Azure Redis Cache instance and use it to store a
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value |
-    | **Resource group** section | Select **Create new**, enter **CacheAssets**, and then select **OK** |
+    | **Resource group** section | Select **Create new**, enter **CacheAssets**_[yourname]_, and then select **OK** |
     | **DNS Name** text box | Enter **redis-cache-**_[yourname]_ |
     | **Location** drop-down list | Select **Australia East** |
     | **Cache SKU** section | Select the **Basic (No SLA)** option |
@@ -161,8 +161,13 @@ Caching is important because it allows us to store commonly used values in memor
     i-love-rocky-road
     pong
     ```
+### Remove the resources group
+
+1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **redis-cache-**_[yourname]_.
+2. On the **redis-cache-**_[yourname]_ blade, select **Delete resource group**.
+3. In the **Delete resource group** blade, enter the name of the resource group to confirm that you want to delete the resource group, and then select **Delete**.
 
 
-#### Review
+## Review
 
 In this exercise, you deployed an Azure Redis Cache instance and interacted with it using the Redis Console and a .NET console application.

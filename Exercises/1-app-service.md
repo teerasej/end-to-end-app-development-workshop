@@ -36,7 +36,7 @@ Sign in to your Azure portal using the credentials provided.
     | Setting | Action |
     |--|--|
     | **Subscription** drop-down list | Retain the default value |
-    | **Resource group** section | Select **Create new**, enter **ManagedPlatform**, and then select **OK** |
+    | **Resource group** section | Select **Create new**, enter **ManagedPlatform_[yourname]_**, and then select **OK** |
     | **Storage account name** text box | Enter **imgstor**_[yourname]_ |
     | **Region** drop-down list | Select **(US) East US** |
     | **Primary Service** drop-down list | Select **Azure Blob Storage or Azure Data Lake Storage Gen 2** |
@@ -105,7 +105,7 @@ Sign in to your Azure portal using the credentials provided.
       | Setting                            | Action                                                                                                  |
       | ---------------------------------- | ------------------------------------------------------------------------------------------------------- |
       | **Subscription** drop-down list    | Retain the default value                                                                                |
-      | **Resource group** section         | Select **ManagedPlatform**                                                                              |
+      | **Resource group** section         | Select **ManagedPlatform_[yourname]_**                                                                              |
       | **Name** text box                  | Enter **imgapi**_[yourname]_ **(noted this one in NotePad)**                                                                           |
       | **Publish** section                | Select **Code**                                                                                         |
       | **Runtime stack** drop-down list   | Select **.NET 8 (LTS)**                                                                                 |
@@ -196,7 +196,7 @@ Sign in to your Azure portal using the credentials provided.
    
    41. On the Azure portal's **navigation** pane, select the **Resource groups** link.
    
-   42. On the **Resource groups** blade, select the **ManagedPlatform** resource group that you created previously in this lab.
+   42. On the **Resource groups** blade, select the **ManagedPlatform_[yourname]_** resource group that you created previously in this lab.
    
    43. On the **ManagedPlatform** blade, select the **imgapi**_[yourname]_ web app that you created previously in this lab.
    
@@ -229,7 +229,7 @@ Sign in to your Azure portal using the credentials provided.
       | Setting                            | Action                        |
       | ---------------------------------- | ----------------------------- |
       | **Subscription** drop-down list    | Retain the default value      |
-      | **Resource group** section         | Select **ManagedPlatform**    |
+      | **Resource group** section         | Select **ManagedPlatform_[yourname]_**    |
       | **Name** text box                  | Enter **imgweb**_[yourname]_ **(Noted this name)** |
       | **Publish** section                | Select **Code**               |
       | **Runtime stack** drop-down list   | Select **.NET 8 (LTS)**       |
@@ -311,7 +311,7 @@ Sign in to your Azure portal using the credentials provided.
    
    60. On the Azure portal's **navigation** pane, select **Resource groups**.
    
-   61. On the **Resource groups** blade, select the **ManagedPlatform** resource group that you created previously in this lab.
+   61. On the **Resource groups** blade, select the **ManagedPlatform_[yourname]_** resource group that you created previously in this lab.
    
    62. On the **ManagedPlatform** blade, select the **imgweb**_[yourname]_ web app that you created previously in this lab.
    
@@ -335,6 +335,13 @@ Sign in to your Azure portal using the credentials provided.
    
    68. Close the currently running Visual Studio Code and Terminal applications.
    
-   #### Review
-   
-   In this exercise, you created an Azure web app and deployed an existing web application’s code to the resource in the cloud.
+
+### Remove the resources group
+
+1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **ManagedPlatform_[yourname]_**.
+2. On the ****Serverless**_[yourname]_** blade, select **Delete resource group**.
+3. In the **Delete resource group** blade, enter the name of the resource group to confirm that you want to delete the resource group, and then select **Delete**.
+
+## Review
+
+In this exercise, you created an Azure web app and deployed an existing web application’s code to the resource in the cloud.

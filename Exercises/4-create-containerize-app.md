@@ -45,7 +45,7 @@ In this lab, you will create an Azure Kubernetes Service (AKS) cluster and deplo
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value |
-    | **Resource group** section | Select **Create new**, enter **ContainerAssets**, and then select **OK** **(Noted this for later)**|
+    | **Resource group** section | Select **Create new**, enter **ContainerAssets**_[yourname]_, and then select **OK** **(Noted this for later)**|
     | **Cluster preset configuration** drop-down list | Select **Dev/Test** |
     | **Name** text box | **kubecl**_[yourname]_ **(Noted this for later)**|
     | **Region** drop-down list | Select any Azure region in which you can deploy an Application Insights resource |
@@ -431,6 +431,13 @@ store-front   LoadBalancer   10.0.100.10   20.62.159.19   80:30025/TCP   4h5m
 
 ![](./media/l04-aks-store-web.png)
 
-#### Review
+### Remove the resources group
+
+1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **ContainerAssets**_[yourname]_.
+2. On the **ContainerAssets**_[yourname]_ blade, select **Delete resource group**.
+3. In the **Delete resource group** blade, enter the name of the resource group to confirm that you want to delete the resource group, and then select **Delete**.
+
+
+## Review
 
 In this exercise, you configured and tested Application which are deployed to an Azure Kubernetes Service (AKS) cluster.

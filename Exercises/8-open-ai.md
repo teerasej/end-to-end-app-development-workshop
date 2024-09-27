@@ -41,7 +41,7 @@ If you don't already have one, provision an Azure OpenAI resource in your Azure 
 1. Sign into the **Azure portal** at `https://portal.azure.com`.
 2. Create an **Azure OpenAI** resource with the following settings:
     - **Subscription**: *Select an Azure subscription that has been approved for access to the Azure OpenAI service*
-    - **Resource group**: *Choose or create a resource group*
+    - **Resource group**: *Create a resource group*: **openai-**_[yourname]_
     - **Region**: *Make a **random** choice from any of the following regions*\*
         - Australia East
         - Canada East
@@ -286,6 +286,14 @@ In most real-world applications, the ability to reference previous parts of the 
 
     > **Tip**: The token count is only set to 1200, so if the conversation continues too long the application will run out of available tokens, resulting in an incomplete prompt. In production uses, limiting the length of the history to the most recent inputs and responses will help control the number of required tokens.
 
-#### Review
+### Remove the resources group
+
+1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **openai-**_[yourname]_.
+2. On the **openai-**_[yourname]_ blade, select **Delete resource group**.
+3. In the **Delete resource group** blade, enter the name of the resource group to confirm that you want to delete the resource group, and then select **Delete**.
+
+
+
+## Review
 
 In this exercise, you deployed an Azure Redis Cache instance and interacted with it using the Redis Console and a .NET console application.
