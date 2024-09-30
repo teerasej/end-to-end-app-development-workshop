@@ -34,6 +34,8 @@ In this lab, you will demonstrate the ability to create a simple Azure function 
 
 #### Task 2: Create an Azure Storage account
 
+> If you have limited time on labs, your can pass this task and use the storage account that is created automatically when you create the function app in task 3.
+
 1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Storage Accounts**, and then, in the list of results, select **Storage Accounts**.
 
 1. On the **Storage accounts** blade, select **+ Create**.
