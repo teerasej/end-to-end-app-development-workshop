@@ -1,6 +1,6 @@
 
 
-# Lab 3: Create and deploy application on Azure Kubernetes Service
+# Lab 04: Create and deploy application on Azure Kubernetes Service
 
 ## Microsoft Azure user interface
 

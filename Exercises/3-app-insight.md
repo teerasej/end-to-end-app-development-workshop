@@ -1,6 +1,6 @@
 
 
-# Lab 3: Monitoring services with Azure Application Insight
+# Lab 03: Monitoring services with Azure Application Insight
 
 ## Microsoft Azure user interface
 
