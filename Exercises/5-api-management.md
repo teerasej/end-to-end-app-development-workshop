@@ -47,7 +47,7 @@ In this proof of concept, you will create a containerized application to host a 
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value |
-    | **Resource group** section | Select **Create new**, enter **ApiService**_[yourname]_,  and then select **OK** |
+    | **Resource group** section | Select **Create new**, enter _[yourname]_**ApiService**,  and then select **OK** |
     | **Name** text box | Enter **httpapi** *[yourname]* |
     | **Publish** section | Select **Container** |
     | **Operating System** section | Select **Linux** |
@@ -138,7 +138,7 @@ In this exercise, you created a new Azure web app by using a container image sou
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value. |
-    | **Resource group** section | Select the **ApiService**_[yourname]_ group that you created  earlier in the lab |
+    | **Resource group** section | Select the _[yourname]_**ApiService** group that you created  earlier in the lab |
     | **Region** list | Select the same region you chose in the previous exercise |
     | **Resource name** text box | Enter **proapi**_[yourname]_ |
     | **Organization name** text box | Enter **Contoso** |
@@ -347,8 +347,8 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 ### Remove the resources group
 
-1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **ApiService**_[yourname]_.
-2. On the **ApiService**_[yourname]_ blade, select **Delete resource group**.
+1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select _[yourname]_**ApiService**.
+2. On the _[yourname]_**ApiService** blade, select **Delete resource group**.
 3. In the **Delete resource group** blade, enter the name of the resource group to confirm that you want to delete the resource group, and then select **Delete**.
 
 

@@ -43,7 +43,7 @@ In this lab, you will demonstrate the ability to create a simple Azure function 
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value |
-    | **Resource group** section | Select **Create new**, enter **Serverless**_[yourname]_, and then select **OK** |
+    | **Resource group** section | Select **Create new**, enter _[yourname]_**Serverless**, and then select **OK** |
     | **Storage account name** text box | Enter **funcstor**_[yourname]_ |
     | **Region** drop-down list | Select **(US) East US** |
     | **Performance** section | Select the **Standard** option |
@@ -85,12 +85,12 @@ In this lab, you will demonstrate the ability to create a simple Azure function 
 
 ![Screenshot of comsumption plan for Azure Function](./media/l02-function-plan.png)
 
-2. On the **Create Function App (Consumpotion)** blade, on the **Basics** tab, perform the following actions, and then select **Next: Storage**:
+2. On the **Create Function App (Consumption)** blade, on the **Basics** tab, perform the following actions, and then select **Next: Storage**:
 
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value |
-    | **Resource group** section | Select **create new** and name it: **Serverless**_[yourname]_ |
+    | **Resource group** section | Select **create new** and name it: _[yourname]_**Serverless** |
     | **Function App name** text box | Enter **funclogic**_[yourname]_ |
     | **Runtime stack** drop-down list | Select **NodeJS** |
     | **Version** drop-down list | Select **20 (LTS)** |
@@ -157,8 +157,8 @@ In this exercise, you created all the resources that you'll use in this lab.
 
 ### Remove the resources group
 
-1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **Serverless**_[yourname]_.
-2. On the **Serverless**_[yourname]_ blade, select **Delete resource group**.
+1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select _[yourname]_**Serverless**.
+2. On the _[yourname]_**Serverless** blade, select **Delete resource group**.
 3. In the **Delete resource group** blade, enter the name of the resource group to confirm that you want to delete the resource group, and then select **Delete**.
 
 ## Review

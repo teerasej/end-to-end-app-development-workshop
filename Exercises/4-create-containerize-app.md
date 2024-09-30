@@ -45,7 +45,7 @@ In this lab, you will create an Azure Kubernetes Service (AKS) cluster and deplo
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value |
-    | **Resource group** section | Select **Create new**, enter **ContainerAssets**_[yourname]_, and then select **OK** **(Noted this for later)**|
+    | **Resource group** section | Select **Create new**, enter _[yourname]_**ContainerAssets**, and then select **OK** **(Noted this for later)**|
     | **Cluster preset configuration** drop-down list | Select **Dev/Test** |
     | **Name** text box | **kubecl**_[yourname]_ **(Noted this for later)**|
     | **Region** drop-down list | Select any Azure region in which you can deploy an Application Insights resource |
@@ -98,8 +98,10 @@ In this lab, you will create an Azure Kubernetes Service (AKS) cluster and deplo
 4. After the Cloud Shell is ready, run the following command to configure kubectl to connect to your Kubernetes cluster. This command downloads credentials and configures the Kubernetes CLI to use them:
 
     ```bash
-    az aks get-credentials --resource-group ContainerAssets --name [your-cluster-name]
+    az aks get-credentials --resource-group <your-resource-group-name> --name <your-cluster-name>
     ```
+
+    > **Note**: Replace `<your-resource-group-name>` with the name of the resource group you created earlier and `<your-cluster-name>` with the name of the AKS cluster you created earlier.
 
     > **Note**: if it's failed. Try to run `az login` to ensure you are logged in to the correct subscription.
 
@@ -433,8 +435,8 @@ store-front   LoadBalancer   10.0.100.10   20.62.159.19   80:30025/TCP   4h5m
 
 ### Remove the resources group
 
-1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **ContainerAssets**_[yourname]_.
-2. On the **ContainerAssets**_[yourname]_ blade, select **Delete resource group**.
+1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select _[yourname]_**ContainerAssets**.
+2. On the _[yourname]_**ContainerAssets** blade, select **Delete resource group**.
 3. In the **Delete resource group** blade, enter the name of the resource group to confirm that you want to delete the resource group, and then select **Delete**.
 
 

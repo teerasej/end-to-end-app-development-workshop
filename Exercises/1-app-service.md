@@ -48,7 +48,7 @@ Sign in to your Azure portal using the credentials provided.
    | Setting                            | Action                        |
    | ---------------------------------- | ----------------------------- |
    | **Subscription** drop-down list    | Retain the default value      |
-   | **Resource group** section         | Select **Create new**, enter **ManagedPlatform_[yourname]_**, and then select **OK**  **(Noted this name)**  |
+   | **Resource group** section         | Select **Create new**, enter **_[yourname]_ManagedPlatform**, and then select **OK**  **(Noted this name)**  |
    | **Name** text box                  | Enter **imgweb**_[yourname]_ **(Noted this name)** |
    | **Publish** section                | Select **Code**               |
    | **Runtime stack** drop-down list   | Select **.NET 8 (LTS)**       |
@@ -125,13 +125,13 @@ Sign in to your Azure portal using the credentials provided.
    az webapp deploy --resource-group <your-resource-group-name> --src-path web.zip --type zip --name  <name-of-your-api-app>
    ```
    
-   > **Note**: Replace the *\<name-of-your-web-app\>* placeholder with the name of the web app that you created previously in this lab. You recently noted this app’s name in the previous steps.
+   > **Note**: Replace the *\<name-of-your-web-app\>* placeholder with the name of the web app and *\<your-resource-group-name\>* that you created previously in this lab. You recently noted this app’s name in the previous steps.
    
    Wait for the deployment to complete before you continue with this lab.
    
    27. On the Azure portal's **navigation** pane, select **Resource groups**.
    
-   28. On the **Resource groups** blade, select the **ManagedPlatform_[yourname]_** resource group that you created previously in this lab.
+   28. On the **Resource groups** blade, select the **_[yourname]_ManagedPlatform** resource group that you created previously in this lab.
    
    29. On the **ManagedPlatform** blade, select the **imgweb**_[yourname]_ web app that you created previously in this lab.
    
@@ -158,8 +158,8 @@ Sign in to your Azure portal using the credentials provided.
 
 ### Remove the resources group
 
-1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **ManagedPlatform_[yourname]_**.
-2. On the ****Serverless**_[yourname]_** blade, select **Delete resource group**.
+1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **_[yourname]_ManagedPlatform**.
+2. On the **_[yourname]_ManagedPlatform** blade, select **Delete resource group**.
 3. In the **Delete resource group** blade, enter the name of the resource group to confirm that you want to delete the resource group, and then select **Delete**.
 
 ## Review

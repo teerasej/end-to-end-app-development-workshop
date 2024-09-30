@@ -41,7 +41,7 @@ If you don't already have one, provision an Azure OpenAI resource in your Azure 
 1. Sign into the **Azure portal** at `https://portal.azure.com`.
 2. Create an **Azure OpenAI** resource with the following settings:
     - **Subscription**: *Select an Azure subscription that has been approved for access to the Azure OpenAI service*
-    - **Resource group**: *Create a resource group*: **openai-**_[yourname]_
+    - **Resource group**: *Create a resource group*: _[yourname]_**OpenAI**
     - **Region**: *Make a **random** choice from any of the following regions*\*
         - Australia East
         - Canada East
@@ -288,8 +288,8 @@ In most real-world applications, the ability to reference previous parts of the 
 
 ### Remove the resources group
 
-1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **openai-**_[yourname]_.
-2. On the **openai-**_[yourname]_ blade, select **Delete resource group**.
+1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select _[yourname]_**OpenAI**.
+2. On the _[yourname]_**OpenAI** blade, select **Delete resource group**.
 3. In the **Delete resource group** blade, enter the name of the resource group to confirm that you want to delete the resource group, and then select **Delete**.
 
 

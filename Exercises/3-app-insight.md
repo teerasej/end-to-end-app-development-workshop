@@ -45,7 +45,7 @@ In this lab, you will create an Application Insights resource in Azure that will
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value |
-    | **Resource group** section | Select **Create new**, enter **MonitoredAssets**_[yourname]_, and then select **OK** |
+    | **Resource group** section | Select **Create new**, enter _[yourname]_**MonitoredAssets**, and then select **OK** |
     | **Name** text box | **instrm**_[yourname]_ |
     | **Region** drop-down list | Select any Azure region in which you can deploy an Application Insights resource |
     | **Resource Mode** section | Select the **Workspace-based** option |
@@ -80,7 +80,7 @@ In this lab, you will create an Application Insights resource in Azure that will
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value |
-    | **Resource group** drop-down list |Select **MonitoredAssets**_[yourname]_ |
+    | **Resource group** drop-down list |Select _[yourname]_**MonitoredAssets** |
     | **Name** text box | Enter **smpapi**_[yourname]_ |
     | **Publish** section | Select **Code** |
     | **Runtime stack** drop-down list | Select **.NET 8 (LTS)** |
@@ -275,10 +275,10 @@ In this exercise, you created an API app by using ASP.NET and configured it to s
 3. Run the following command to create a zip file containing the starter project that you'll deploy next to the Azure web API:
 
     ```bash
-    az webapp deploy --resource-group MonitoredAssets --src-path api.zip --type zip --name  <name-of-your-api-app>  
+    az webapp deploy --resource-group <your-resource-group-name> --src-path api.zip --type zip --name  <name-of-your-api-app>  
     ```
 
-    > **Note**: Replace `<name-of-your-api-app>` with the name of the Azure web API app that you created earlier in this lab.
+    > **Note**: Replace `<name-of-your-api-app>` and `<your-resource-group-name>` with the name of the Azure web API app that you created earlier in this lab.
 
 4.  On the lab computer, launch another Microsoft Edge browser window.
 
@@ -349,8 +349,8 @@ In this exercise, you created an API app by using ASP.NET and configured it to s
 
 ### Remove the resources group
 
-1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select **MonitoredAssets**_[yourname]_.
-2. On the **MonitoredAssets**_[yourname]_ blade, select **Delete resource group**.
+1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Resource groups**, and then in the list of results, select _[yourname]_**MonitoredAssets**.
+2. On the _[yourname]_**MonitoredAssets** blade, select **Delete resource group**.
 3. In the **Delete resource group** blade, enter the name of the resource group to confirm that you want to delete the resource group, and then select **Delete**.
 
 
