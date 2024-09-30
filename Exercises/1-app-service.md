@@ -141,11 +141,11 @@ Sign in to your Azure portal using the credentials provided.
    
    32. In the **Contoso Photo Gallery** webpage, in the **Upload a new image** section, perform the following actions:
    
-      a. Select **Browse**.
-   
-      b. In the **File Explorer** window, browse to **[Local repository directory]\\Allfiles\\Labs\\01\\Starter\\Images**, select the **banhmi.jpg** file, and then select **Open**.
-   
-      c. Select **Upload**.
+       1. Select **Browse**.
+
+       2. In the **File Explorer** window, browse to **[Local repository directory]\\Allfiles\\Labs\\01\\Starter\\Images**, select the **banhmi.jpg** file, and then select **Open**.
+
+       3. Select **Upload**.
    
    33. Observe that the list of gallery images has updated with your new image.
    
