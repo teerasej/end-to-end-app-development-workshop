@@ -426,7 +426,7 @@ When the application runs, a Kubernetes service exposes the application front en
    
     ```bash
     NAME          TYPE           CLUSTER-IP    EXTERNAL-IP    PORT(S)        AGE
-store-front   LoadBalancer   10.0.100.10   20.62.159.19   80:30025/TCP   4h5m
+    store-front   LoadBalancer   10.0.100.10   20.62.159.19   80:30025/TCP   4h5m
     ```
    
 4. Open a web browser to the **external IP address** of your service to see the Azure Store app in action. For example, this case is `20.62.159.19`.
