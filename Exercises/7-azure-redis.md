@@ -2,6 +2,10 @@
 
 # Lab 07: Azure Redis
 
+```
+nextflow-cache.redis.cache.windows.net:6380,password=ifU6aA9BPImDvreY0EVvWz1G2HIKpd9OGAzCaL9l6hM=,ssl=True,abortConnect=False
+```
+
 ## Microsoft Azure user interface
 
 Given the dynamic nature of Microsoft cloud tools, you might experience Azure UI changes that occur after the development of this training content. As a result, the lab instructions and lab steps might not align correctly.
