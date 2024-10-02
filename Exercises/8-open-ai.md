@@ -3,6 +3,8 @@
 
 # Lab 08: Azure OpenAI service
 
+**Prompt Challenge**: https://teerasej.notion.site/Prompt-Challenge-4ff7fcf60adb4ef8959d42110c40bbf4?pvs=74
+
 ## Microsoft Azure user interface
 
 Given the dynamic nature of Microsoft cloud tools, you might experience Azure UI changes that occur after the development of this training content. As a result, the lab instructions and lab steps might not align correctly.
