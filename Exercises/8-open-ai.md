@@ -210,7 +210,7 @@ Now that your app has been configured, run it to send your request to your model
     and observe the output.
 
 
-## Maintain conversation history
+## (Optional) Maintain conversation history
 
 In most real-world applications, the ability to reference previous parts of the conversation allows for a more realistic interaction with an AI agent. The Azure OpenAI API is stateless by design, but by providing a history of the conversation in your prompt you enable the AI model to reference past messages.
 
